@@ -7,8 +7,8 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node index.js",
     "web": "vite",
+    "build": "vite build",
     "server": "env YTDL_NO_UPDATE=1 node --watch --no-warnings server/index.js"
   },
   "devDependencies": {
